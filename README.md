@@ -55,27 +55,32 @@ Medium-level queries to calculate average scores, compare platform performance, 
 
 Calculating the average danceability of tracks
 
+```sql
 SELECT track, 
 AVG(danceability) Average_Danceability_Score
 FROM SpotifyYT
 GROUP BY 1;
+```
 
---Finding the top 5 tracks with the highest energy values
+Finding the top 5 tracks with the highest energy values
 
+```sql
 SELECT track, energy
 FROM SpotifyYT
 ORDER BY energy DESC
 LIMIT 5;
+```
 
---Listing all tracks with an official video along with their views and likes
+Listing all tracks with an official video along with their views and likes
 
+```sql
 SELECT track, 
 SUM(views) total_views, 
 SUM(likes) total_likes 
 FROM SpotifyYT
 WHERE official_video = 'TRUE'
 GROUP BY track;
-
+```
 
 Calculating the total views of all associated tracks and their album
 
