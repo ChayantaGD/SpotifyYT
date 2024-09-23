@@ -1,7 +1,5 @@
 # Comprehensive Music Streaming Analytics: Spotify & YouTube
 
-![dssa4](https://github.com/user-attachments/assets/1ef05a64-3c34-4061-a935-e44fd52d08a6)
-![dssb4](https://github.com/user-attachments/assets/493b21e8-487b-4b30-be1e-5003d3417832)
 ![spotifyYt](https://github.com/user-attachments/assets/fd17a6f2-c646-45e7-b540-2e7c4859da8b)
 
 ## Overview
